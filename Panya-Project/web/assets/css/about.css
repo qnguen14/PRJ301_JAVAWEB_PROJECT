@@ -1,0 +1,144 @@
+.about-header{
+    position: relative;
+    background-image: url(./about-banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-header::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.story {
+    display: flex;
+    max-width: 1555px;
+}
+
+.story img {
+    width: 712px;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 57px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.essay {
+    padding: 20px 100px;
+    background-color: #ffffff;
+}
+
+.essay h1 {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 29px;
+    position: relative;
+    display: inline-block;
+    color: var(--background-color);
+}
+
+
+.essay .intro {
+    font-size: 32;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--background-color);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.essay .intro::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-color: var(--background-color);
+    margin-top: 10px;
+}
+
+.essay p {
+    font-size: 27.6px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--background-color);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 533px;
+    width: 100%;
+}
+
+.slogans{
+    display: flex;
+    align-items: center;
+    height: 533px;
+    flex-wrap: wrap;
+    background-color: var(--background-color);
+    color: white;
+    justify-content: space-evenly;
+}
+
+.title2{
+    text-align: center;
+    margin-bottom: 17px;
+    color: var(--background-color);
+    font-weight: 200;
+}
+
+.icons {
+    flex: 1 1 25%;
+    max-width: 220px;
+    height: 219px;
+    margin: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.icons img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 10px;
+}
+
+.icons h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.icons p {
+    font-size: 25;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 2px 0;
+}
+
+
+
+.quote{
+    background-color: black;
+    color: #d0d0d0;
+    font-family: "Jacques Francois";
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}

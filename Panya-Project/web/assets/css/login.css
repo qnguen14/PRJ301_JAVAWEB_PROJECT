@@ -1,0 +1,114 @@
+body{
+    background-image: url(./main-banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-background{
+    position: fixed;
+    width: 60%;
+    height: 100%;
+    background-color: var(--background-color);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-wrapper{
+    width: 50%;
+    height: 55%;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.login-form-wrapper h1{
+    color: var(--background-color);
+    padding-top: 30px;
+    text-align: center;
+}
+
+.login-form-input-box{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-input-box input{
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 20px 45px 20px 20px;
+}
+
+.login-form-input-box input::placeholder{
+    color: grey;
+}
+
+.login-form-input-box i{
+    position: absolute;
+    right: 20%;
+    font-size: 1rem;
+}
+
+.login-submit-button{
+    width: 30%;
+    height: 50px;
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--primary-color);
+    float: right;
+    margin-right: 15%;
+}
+
+.login-submit-button:hover{
+    color: var(--third-color);
+    font-weight: 400;
+    border: 2px solid var(--third-color);
+}
+
+.login-form-signup-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.login-form-signup-link p{
+    color: grey;
+    font-size: 0.7rem;
+}
+
+.login-form-signup-link a{
+    color: var(--background-color);
+}
+
+.login-form-signup-link a:hover{
+    text-decoration: underline;
+}
+
+.error-text{
+    color: #E4003A;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
